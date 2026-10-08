@@ -1,0 +1,11 @@
+_comment: Per-target-family CPU performance ratio, calibrated from /mnt/user-data/uploads/Dashboard-All-Infrastructures-OLA-2---Workload--On-Demand.xlsx
+  (171 usable rows). ratio = cloud_vcpu_demand / onprem_core_demand. A ratio < 1 means
+  the target family's vCPU is faster than the source CPU.
+default: 0.372
+families:
+  r8i-flex: 0.372
+  r8a: 0.257
+  m8a: 0.268
+  t3a: 0.75
+  m8i-flex: 0.416
+  t3: 0.669
